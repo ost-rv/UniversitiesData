@@ -1,17 +1,11 @@
 package org.example;
 
 
-import org.example.enums.StudentSortBy;
-import org.example.enums.StudyProfile;
-import org.example.enums.UniversitySortBy;
 import org.example.models.Student;
-import org.example.models.StudentBuilder;
 import org.example.models.University;
-import org.example.models.UniversityBuilder;
+import org.example.utils.JsonUtil;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,62 +15,54 @@ public class Main {
         List<Student> studentList = XlsxReader.readStudentsFromExcel("universityInfo.xlsx");
         List<University> universityList = XlsxReader.readUniversitiesFromExcel("universityInfo.xlsx");
 
-        System.out.println("==============СТУДЕНТЫ===============");
-        System.out.println("***Сортировка студентов по FullName***");
+        //4. В методе main выполнить сериализацию коллекций, вывести получившиеся JSON-строки в консоль.
+        String jsonStudents = JsonUtil.serializeCollection(studentList);
+        String jsonUniversities = JsonUtil.serializeCollection(universityList);
+
+        System.out.println("=========Сериализация в json списка студентов=========");
+        System.out.println(jsonStudents);
+
+        System.out.println("=========Сериализация в json списка университетов=========");
+        System.out.println(jsonUniversities);
+
+        //5. В методе main выполнить десериализацию полученных строк, сохранить результаты в новые коллекции.
+        List<Student> deserializeStudents = JsonUtil.deserializeJsonToCollection(jsonStudents, Student.class);
+        List<University> deserializeUniversities = JsonUtil.deserializeJsonToCollection(jsonUniversities, University.class);
+
+        System.out.println("=========Десериализация из json в список студентов=========");
+        deserializeStudents.forEach(System.out::println);
+
+        System.out.println("=========Десериализация из json в список университетов=========");
+        deserializeUniversities.forEach(System.out::println);
+
+        // 6. Сравнить количество элементов в исходной и в десериализованной коллекциях, чтобы убедиться, что десериализация выполняется корректно.
+        if(studentList.stream().count() == deserializeStudents.stream().count()){
+            System.out.println("=========Десериализация студентов прошла успешно!=========");
+        } else {
+            System.out.println("=========Десериализация студентов не прошла.=========");
+        }
+
+        if(universityList.stream().count() == deserializeUniversities.stream().count()){
+            System.out.println("=========Десериализация университетов прошла успешно!=========");
+        } else {
+            System.out.println("=========Десериализация университетов не прошла.=========");
+        }
+        //7. С помощью Java Stream API выполнить для исходных коллекций сериализацию отдельных элементов.
+        //8. Там же внутри стрима выводить получающиеся JSON-строки.
+        //9. Там же внутри стрима десериализовывать объекты из полученных JSON-строк.
+        //10. Там же внутри стрима выводить десериализованные объекты на печать, чтобы убедиться в корректности операции.
+        System.out.println("Поэлементная сериализаци/десериализация студентов");
         studentList.stream()
-                .sorted(StudentSortBy.FULL_NAME.getComparator())
+                .map(JsonUtil::serializeJson)
+                .peek(System.out::println)
+                .map(item -> JsonUtil.deserializeJson(item, Student.class))
                 .forEach(System.out::println);
-        System.out.println("************************************");
 
-        System.out.println("***Сортировка студентов по UniversityId***");
-        studentList.stream()
-                .sorted(StudentSortBy.UNIVERSITY_ID.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка студентов по CurrentCourseNumber***");
-        studentList.stream()
-                .sorted(StudentSortBy.CURRENT_COURSE_NUMBER.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка студентов по AvgExamScore***");
-        studentList.stream()
-                .sorted(StudentSortBy.AVG_EXAM_SCORE.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("==============УНИВЕРСИТЕТЫ===============");
-
-        System.out.println("***Сортировка университетов по Id***");
+        System.out.println("=========Поэлементная сериализаци/десериализация университетов=========");
         universityList.stream()
-                .sorted(UniversitySortBy.UNIVERSITY_ID.getComparator())
+                .map(JsonUtil::serializeJson)
+                .peek(System.out::println)
+                .map(item -> JsonUtil.deserializeJson(item, University.class))
                 .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка университетов по FullName***");
-        universityList.stream()
-                .sorted(UniversitySortBy.FULL_NAME.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка университетов по ShortName***");
-        universityList.stream()
-                .sorted(UniversitySortBy.SHORT_NAME.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка университетов по YearOfFoundation***");
-        universityList.stream()
-                .sorted(UniversitySortBy.YEAR_OF_FOUNDATION.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
-        System.out.println("***Сортировка университетов по MainProfile***");
-        universityList.stream()
-                .sorted(UniversitySortBy.MAIN_PROFILE.getComparator())
-                .forEach(System.out::println);
-        System.out.println("************************************");
-
     }
 }
