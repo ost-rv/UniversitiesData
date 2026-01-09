@@ -10,10 +10,16 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class XlsxWriter {
 
+    private static final Logger logger = Logger.getLogger(XlsxWriter.class.getName());
+
     public static void WriteStatistics(List<Statistics> statisticsList, String filePath) {
+        logger.info("Начало записи в файл " + filePath);
+
         // 1. Создание книги
         Workbook workbook = new XSSFWorkbook();
         // 2. Создание нового листа в книге
@@ -40,15 +46,15 @@ public class XlsxWriter {
                 workbook.write(outputStream);
             }
 
-            System.out.println("Файл " + filePath + " успешно создан и заполнен.");
+            logger.info("Файл " + filePath + " успешно создан и заполнен.");
 
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE, "Ошибка при заполнении файла", e);
         } finally {
             try {
                 workbook.close();
             } catch (IOException e) {
-                e.printStackTrace();
+                logger.log(Level.SEVERE, "Ошибка при закрытии книги", e);
             }
         }
     }

@@ -11,12 +11,16 @@ import org.example.models.StudentBuilder;
 import org.example.models.University;
 import org.example.models.UniversityBuilder;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class XlsxReader {
+
+    private static final Logger logger = Logger.getLogger(XlsxReader.class.getName());
+
     private static final String STUDENT_SHEET_NAME = "Студенты";
     private static final String UNIVERSITY_SHEET_NAME = "Университеты";
 
@@ -37,19 +41,21 @@ public class XlsxReader {
     //region Студенты
     public static List<Student> readStudentsFromExcel(String fileName) {
         List<Student> result = new ArrayList<>();
+        logger.info("Начало чтение студентов из файла " + fileName);
+
         try (InputStream excelFile = XlsxReader.class.getClassLoader().getResourceAsStream(fileName)) {
             Workbook workbook = new XSSFWorkbook(excelFile);
 
             Sheet sheet = workbook.getSheet(STUDENT_SHEET_NAME);
             if (sheet == null) {
-                System.err.println("Лист '" + STUDENT_SHEET_NAME + "' не найден.");
+                logger.severe("Лист '" + STUDENT_SHEET_NAME + "' не найден.");
                 return null;
             }
 
             // Получаем индексы столбцов по их заголовкам
             Map<String, Integer> columnIndices = getStudentColumnIndices(sheet.getRow(0));
             if (columnIndices == null) {
-                System.err.println("Не удалось найти все необходимые заголовки столбцов для студентов.");
+                logger.severe("Не удалось найти все необходимые заголовки столбцов для студентов.");
                 return null;
             }
 
@@ -70,15 +76,16 @@ public class XlsxReader {
                     result.add(new StudentBuilder().setUniversityId(universityId).setFullName(fullName).setCurrentCourseNumber(course).setAvgExamScore(avgExamScore).createStudent());
 
                 } catch (NullPointerException | IllegalStateException e) {
-                    System.err.println("Ошибка при чтении строки " + (i + 1) + ": " + e.getMessage());
+                    logger.log(Level.SEVERE,"Ошибка при чтении строки " + (i + 1) + ": " + e.getMessage(), e);
                 }
             }
 
             workbook.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE,"Ошибка чтения файла " + fileName, e);
             return null;
         }
+        logger.info("Чтение студентов из файла " + fileName + " завершено");
         return result;
     }
 
@@ -113,12 +120,15 @@ public class XlsxReader {
     //region Университеты
     public static List<University> readUniversitiesFromExcel(String fileName) {
         List<University> result = new ArrayList<>();
+
+        logger.info("Начало чтение университетов из файла " + fileName);
+
         try (InputStream excelFile = XlsxReader.class.getClassLoader().getResourceAsStream(fileName)) {
             Workbook workbook = new XSSFWorkbook(excelFile);
 
             Sheet sheet = workbook.getSheet(UNIVERSITY_SHEET_NAME);
             if (sheet == null) {
-                System.err.println("Лист '" + UNIVERSITY_SHEET_NAME + "' не найден.");
+                logger.warning("Лист '" + UNIVERSITY_SHEET_NAME + "' не найден.");
                 return null;
             }
 
@@ -126,7 +136,7 @@ public class XlsxReader {
             Map<String, Integer> columnIndices = getUniversityColumnIndices(sheet.getRow(0));
 
             if (columnIndices == null) {
-                System.err.println("Не удалось найти все необходимые заголовки столбцов для студентов.");
+                logger.warning("Не удалось найти все необходимые заголовки столбцов для университетов.");
                 return null;
             }
 
@@ -148,15 +158,16 @@ public class XlsxReader {
                     result.add(new UniversityBuilder().setId(universityId).setFullName(fullName).setShortName(shortName).setYearOfFoundation(year).setMainProfile(profile).createUniversity());
 
                 } catch (NullPointerException | IllegalStateException e) {
-                    System.err.println("Ошибка при чтении строки " + (i + 1) + ": " + e.getMessage());
+                    logger.log(Level.SEVERE, "Ошибка при чтении строки " + (i + 1) , e);
                 }
             }
 
             workbook.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE,"Ошибка чтения файла " + fileName, e);
             return null;
         }
+        logger.info("Чтение университетов из файла " + fileName + " завершено");
         return result;
     }
 
