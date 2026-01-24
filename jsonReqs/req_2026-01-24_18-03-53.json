@@ -1,0 +1,140 @@
+{
+  "studentsInfo": [
+    {
+      "full_name": "Витальев В. А.",
+      "university_id": "0001-high",
+      "current_course_number": 2,
+      "avg_exam_score": 4.0
+    },
+    {
+      "full_name": "Петров П. А.",
+      "university_id": "0001-high",
+      "current_course_number": 1,
+      "avg_exam_score": 5.0
+    },
+    {
+      "full_name": "Алексеев С. В.",
+      "university_id": "0001-high",
+      "current_course_number": 1,
+      "avg_exam_score": 5.0
+    },
+    {
+      "full_name": "Иванов А. Г.",
+      "university_id": "0001-high",
+      "current_course_number": 3,
+      "avg_exam_score": 4.8
+    },
+    {
+      "full_name": "Васильев В. П.",
+      "university_id": "0001-high",
+      "current_course_number": 4,
+      "avg_exam_score": 4.7
+    },
+    {
+      "full_name": "Иванов И. А.",
+      "university_id": "0002-high",
+      "current_course_number": 2,
+      "avg_exam_score": 4.0
+    },
+    {
+      "full_name": "Козлов М. В.",
+      "university_id": "0002-high",
+      "current_course_number": 2,
+      "avg_exam_score": 4.6
+    },
+    {
+      "full_name": "Фёдоров А. И.",
+      "university_id": "0002-high",
+      "current_course_number": 3,
+      "avg_exam_score": 4.2
+    },
+    {
+      "full_name": "Игнатьев М. М.",
+      "university_id": "0003-high",
+      "current_course_number": 4,
+      "avg_exam_score": 4.3
+    },
+    {
+      "full_name": "Соколов В. В.",
+      "university_id": "0004-high",
+      "current_course_number": 1,
+      "avg_exam_score": 4.8
+    },
+    {
+      "full_name": "Сидоров Е. Г.",
+      "university_id": "0004-high",
+      "current_course_number": 2,
+      "avg_exam_score": 3.9
+    }
+  ],
+  "universitiesInfo": [
+    {
+      "id": "0001-high",
+      "universityName": "Московский Выдуманный Университет",
+      "short_name": "МВУ",
+      "year_of_foundation": 1990,
+      "main_profile": "PHYSICS"
+    },
+    {
+      "id": "0002-high",
+      "universityName": "Московский Придуманный Институт",
+      "short_name": "МПИ",
+      "year_of_foundation": 1987,
+      "main_profile": "PHYSICS"
+    },
+    {
+      "id": "0003-high",
+      "universityName": "Московский Государственный Медицинский Университет",
+      "short_name": "МГМУ",
+      "year_of_foundation": 1960,
+      "main_profile": "MEDICINE"
+    },
+    {
+      "id": "0004-high",
+      "universityName": "Тамбовский Университет Медицины",
+      "short_name": "ТУМ",
+      "year_of_foundation": 1995,
+      "main_profile": "MEDICINE"
+    },
+    {
+      "id": "0005-high",
+      "universityName": "Самарский Медицинский Институт",
+      "short_name": "СМИ",
+      "year_of_foundation": 1936,
+      "main_profile": "MEDICINE"
+    },
+    {
+      "id": "0006-high",
+      "universityName": "Воронежский Литературно-Переводческий Университет",
+      "short_name": "ВЛПУ",
+      "year_of_foundation": 2003,
+      "main_profile": "LINGUISTICS"
+    },
+    {
+      "id": "0007-high",
+      "universityName": "Казанский Университет Вычислений",
+      "short_name": "КУВ",
+      "year_of_foundation": 1989,
+      "main_profile": "MATHEMATICS"
+    }
+  ],
+  "statisticalInfo": [
+    {
+      "universityProfile": "PHYSICS",
+      "avgScore": 4.537499964237213
+    },
+    {
+      "universityProfile": "MEDICINE",
+      "avgScore": 4.333333492279053
+    },
+    {
+      "universityProfile": "LINGUISTICS",
+      "avgScore": 0.0
+    },
+    {
+      "universityProfile": "MATHEMATICS",
+      "avgScore": 0.0
+    }
+  ],
+  "processedAt": "2026-01-24T18:03:52.847783900+03:00"
+}

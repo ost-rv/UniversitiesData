@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
-import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -85,10 +84,9 @@ public class XlsxWriter {
     private static void fillRowWithStatsData(Row row, Statistics stats) {
         // Заполнение ячеек по порядку полей класса Statistics
         row.createCell(0).setCellValue(stats.getMainProfile().name()); // Enum в строку
-        Optional<Double> avg = stats.getAvgExamScore();
+        Double avg = stats.getAvgExamScore();
 
-        if(avg.isPresent())
-            row.createCell(1).setCellValue(BigDecimal.valueOf(stats.getAvgExamScore().get()).setScale(2, RoundingMode.HALF_UP).doubleValue());
+        row.createCell(1).setCellValue(BigDecimal.valueOf(stats.getAvgExamScore()).setScale(2, RoundingMode.HALF_UP).doubleValue());
 
         row.createCell(2).setCellValue(stats.getCountStudentByProfile());
         row.createCell(3).setCellValue(stats.getCountUniversityByProfile());

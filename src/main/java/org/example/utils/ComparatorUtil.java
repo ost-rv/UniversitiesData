@@ -5,9 +5,9 @@ import org.example.enums.UniversitySortBy;
 import org.example.interfaces.IStudentComparator;
 import org.example.interfaces.IUniversityComparator;
 
-public class ComparatorUtils {
+public class ComparatorUtil {
 
-    private ComparatorUtils() {
+    private ComparatorUtil() {
     }
 
     public static IStudentComparator getStudentComparator(StudentSortBy sortBy) {

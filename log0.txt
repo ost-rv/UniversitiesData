@@ -13038,3 +13038,1471 @@
   <message>Конец работы приложения</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:14:23.403765700Z</date>
+  <millis>1769260463403</millis>
+  <nanos>765700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:14:23.865805500Z</date>
+  <millis>1769260463865</millis>
+  <nanos>805500</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:14:29.102803600Z</date>
+  <millis>1769260469102</millis>
+  <nanos>803600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:14:29.127731200Z</date>
+  <millis>1769260469127</millis>
+  <nanos>731200</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:14:29.258799400Z</date>
+  <millis>1769260469258</millis>
+  <nanos>799400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:14:29.892114400Z</date>
+  <millis>1769260469892</millis>
+  <nanos>114400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>SEVERE</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Ошибка при записи XML: 2 counts of IllegalAnnotationExceptions</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:15:40.210272800Z</date>
+  <millis>1769260540210</millis>
+  <nanos>272800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:15:50.426936400Z</date>
+  <millis>1769260550426</millis>
+  <nanos>936400</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:15:53.948383700Z</date>
+  <millis>1769260553948</millis>
+  <nanos>383700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:15:53.969865100Z</date>
+  <millis>1769260553969</millis>
+  <nanos>865100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:15:54.365459400Z</date>
+  <millis>1769260554365</millis>
+  <nanos>459400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:18:31.505364400Z</date>
+  <millis>1769260711505</millis>
+  <nanos>364400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>SEVERE</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Ошибка при записи XML: 2 counts of IllegalAnnotationExceptions</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:20:18.887668900Z</date>
+  <millis>1769260818887</millis>
+  <nanos>668900</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:20:19.308775500Z</date>
+  <millis>1769260819308</millis>
+  <nanos>775500</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:20:21.912987800Z</date>
+  <millis>1769260821912</millis>
+  <nanos>987800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:20:21.929733700Z</date>
+  <millis>1769260821929</millis>
+  <nanos>733700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:20:22.081777100Z</date>
+  <millis>1769260822081</millis>
+  <nanos>777100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:21:17.614774400Z</date>
+  <millis>1769260877614</millis>
+  <nanos>774400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-20-29.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:21:22.985789200Z</date>
+  <millis>1769260882985</millis>
+  <nanos>789200</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:29:09.949020300Z</date>
+  <millis>1769261349949</millis>
+  <nanos>20300</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:29:10.400332900Z</date>
+  <millis>1769261350400</millis>
+  <nanos>332900</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:29:12.940314200Z</date>
+  <millis>1769261352940</millis>
+  <nanos>314200</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:29:12.956987300Z</date>
+  <millis>1769261352956</millis>
+  <nanos>987300</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:29:13.101085100Z</date>
+  <millis>1769261353101</millis>
+  <nanos>85100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:33.937443200Z</date>
+  <millis>1769261673937</millis>
+  <nanos>443200</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:37.848398500Z</date>
+  <millis>1769261677848</millis>
+  <nanos>398500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-34-36.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:37.850456400Z</date>
+  <millis>1769261677850</millis>
+  <nanos>456400</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:34:53.219321800Z</date>
+  <millis>1769261693219</millis>
+  <nanos>321800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:53.401276100Z</date>
+  <millis>1769261693401</millis>
+  <nanos>276100</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:56.482657800Z</date>
+  <millis>1769261696482</millis>
+  <nanos>657800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:56.502497700Z</date>
+  <millis>1769261696502</millis>
+  <nanos>497700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:56.674203100Z</date>
+  <millis>1769261696674</millis>
+  <nanos>203100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:56.710298300Z</date>
+  <millis>1769261696710</millis>
+  <nanos>298300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:57.222268300Z</date>
+  <millis>1769261697222</millis>
+  <nanos>268300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-34-56.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:34:57.223196500Z</date>
+  <millis>1769261697223</millis>
+  <nanos>196500</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:46:20.200780300Z</date>
+  <millis>1769262380200</millis>
+  <nanos>780300</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:20.369775700Z</date>
+  <millis>1769262380369</millis>
+  <nanos>775700</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:23.337744400Z</date>
+  <millis>1769262383337</millis>
+  <nanos>744400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:23.353624500Z</date>
+  <millis>1769262383353</millis>
+  <nanos>624500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:23.487619400Z</date>
+  <millis>1769262383487</millis>
+  <nanos>619400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:23.523746Z</date>
+  <millis>1769262383523</millis>
+  <nanos>746000</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:24.002597100Z</date>
+  <millis>1769262384002</millis>
+  <nanos>597100</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-46-23.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:46:24.005030700Z</date>
+  <millis>1769262384005</millis>
+  <nanos>30700</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:55:23.989400100Z</date>
+  <millis>1769262923989</millis>
+  <nanos>400100</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:24.197537800Z</date>
+  <millis>1769262924197</millis>
+  <nanos>537800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:27.370375Z</date>
+  <millis>1769262927370</millis>
+  <nanos>375000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:27.386472900Z</date>
+  <millis>1769262927386</millis>
+  <nanos>472900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:27.544493100Z</date>
+  <millis>1769262927544</millis>
+  <nanos>493100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:27.571565500Z</date>
+  <millis>1769262927571</millis>
+  <nanos>565500</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:28.024389500Z</date>
+  <millis>1769262928024</millis>
+  <nanos>389500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-55-27.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:55:28.025476900Z</date>
+  <millis>1769262928025</millis>
+  <nanos>476900</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T13:59:14.905461700Z</date>
+  <millis>1769263154905</millis>
+  <nanos>461700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:15.118526800Z</date>
+  <millis>1769263155118</millis>
+  <nanos>526800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:17.900781700Z</date>
+  <millis>1769263157900</millis>
+  <nanos>781700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:17.915937Z</date>
+  <millis>1769263157915</millis>
+  <nanos>937000</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:18.040379100Z</date>
+  <millis>1769263158040</millis>
+  <nanos>379100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:18.079028200Z</date>
+  <millis>1769263158079</millis>
+  <nanos>28200</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:18.561488500Z</date>
+  <millis>1769263158561</millis>
+  <nanos>488500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_16-59-18.xml</message>
+</record>
+<record>
+  <date>2026-01-24T13:59:18.563518900Z</date>
+  <millis>1769263158563</millis>
+  <nanos>518900</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:00:27.884194200Z</date>
+  <millis>1769263227884</millis>
+  <nanos>194200</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:00:28.113096800Z</date>
+  <millis>1769263228113</millis>
+  <nanos>96800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:00:31.047080600Z</date>
+  <millis>1769263231047</millis>
+  <nanos>80600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:00:31.065387500Z</date>
+  <millis>1769263231065</millis>
+  <nanos>387500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:00:31.234964Z</date>
+  <millis>1769263231234</millis>
+  <nanos>964000</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:19:04.125149200Z</date>
+  <millis>1769264344125</millis>
+  <nanos>149200</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:04.303471200Z</date>
+  <millis>1769264344303</millis>
+  <nanos>471200</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:07.072791Z</date>
+  <millis>1769264347072</millis>
+  <nanos>791000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:07.090883400Z</date>
+  <millis>1769264347090</millis>
+  <nanos>883400</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:07.241616100Z</date>
+  <millis>1769264347241</millis>
+  <nanos>616100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:07.486457400Z</date>
+  <millis>1769264347486</millis>
+  <nanos>457400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_17-19-07.json</message>
+</record>
+<record>
+  <date>2026-01-24T14:19:07.489549700Z</date>
+  <millis>1769264347489</millis>
+  <nanos>549700</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:29:22.681633300Z</date>
+  <millis>1769264962681</millis>
+  <nanos>633300</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:22.948881400Z</date>
+  <millis>1769264962948</millis>
+  <nanos>881400</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:26.962739300Z</date>
+  <millis>1769264966962</millis>
+  <nanos>739300</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:26.978634800Z</date>
+  <millis>1769264966978</millis>
+  <nanos>634800</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:27.115746200Z</date>
+  <millis>1769264967115</millis>
+  <nanos>746200</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:27.436652600Z</date>
+  <millis>1769264967436</millis>
+  <nanos>652600</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_17-29-27.json</message>
+</record>
+<record>
+  <date>2026-01-24T14:29:27.440687500Z</date>
+  <millis>1769264967440</millis>
+  <nanos>687500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:43:42.905393600Z</date>
+  <millis>1769265822905</millis>
+  <nanos>393600</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:43.136255700Z</date>
+  <millis>1769265823136</millis>
+  <nanos>255700</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:46.248602800Z</date>
+  <millis>1769265826248</millis>
+  <nanos>602800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:46.264311700Z</date>
+  <millis>1769265826264</millis>
+  <nanos>311700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:46.400397800Z</date>
+  <millis>1769265826400</millis>
+  <nanos>397800</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:46.643385400Z</date>
+  <millis>1769265826643</millis>
+  <nanos>385400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_17-43-46.json</message>
+</record>
+<record>
+  <date>2026-01-24T14:43:46.646235600Z</date>
+  <millis>1769265826646</millis>
+  <nanos>235600</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:46:29.870025500Z</date>
+  <millis>1769265989870</millis>
+  <nanos>25500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:46:30.118007600Z</date>
+  <millis>1769265990118</millis>
+  <nanos>7600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:46:32.989166800Z</date>
+  <millis>1769265992989</millis>
+  <nanos>166800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:46:33.008529500Z</date>
+  <millis>1769265993008</millis>
+  <nanos>529500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:46:33.173137100Z</date>
+  <millis>1769265993173</millis>
+  <nanos>137100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:50:03.948368Z</date>
+  <millis>1769266203948</millis>
+  <nanos>368000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:04.298302Z</date>
+  <millis>1769266204298</millis>
+  <nanos>302000</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:06.832565300Z</date>
+  <millis>1769266206832</millis>
+  <nanos>565300</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:06.848500900Z</date>
+  <millis>1769266206848</millis>
+  <nanos>500900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:07.014275300Z</date>
+  <millis>1769266207014</millis>
+  <nanos>275300</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:26.243833800Z</date>
+  <millis>1769266226243</millis>
+  <nanos>833800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_17-50-25.json</message>
+</record>
+<record>
+  <date>2026-01-24T14:50:26.246344400Z</date>
+  <millis>1769266226246</millis>
+  <nanos>344400</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T14:51:13.681524Z</date>
+  <millis>1769266273681</millis>
+  <nanos>524000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:13.915281900Z</date>
+  <millis>1769266273915</millis>
+  <nanos>281900</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:16.761345400Z</date>
+  <millis>1769266276761</millis>
+  <nanos>345400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:16.779323900Z</date>
+  <millis>1769266276779</millis>
+  <nanos>323900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:16.913319400Z</date>
+  <millis>1769266276913</millis>
+  <nanos>319400</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:16.939365300Z</date>
+  <millis>1769266276939</millis>
+  <nanos>365300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:17.381305300Z</date>
+  <millis>1769266277381</millis>
+  <nanos>305300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_17-51-16.xml</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:17.510594100Z</date>
+  <millis>1769266277510</millis>
+  <nanos>594100</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_17-51-17.json</message>
+</record>
+<record>
+  <date>2026-01-24T14:51:17.512286Z</date>
+  <millis>1769266277512</millis>
+  <nanos>286000</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-24T15:03:49.287814500Z</date>
+  <millis>1769267029287</millis>
+  <nanos>814500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начало работы приложения</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:49.475891400Z</date>
+  <millis>1769267029475</millis>
+  <nanos>891400</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение студентов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:52.599661Z</date>
+  <millis>1769267032599</millis>
+  <nanos>661000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readStudentsFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение студентов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:52.617884300Z</date>
+  <millis>1769267032617</millis>
+  <nanos>884300</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Начало чтение университетов из файла universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:52.814802200Z</date>
+  <millis>1769267032814</millis>
+  <nanos>802200</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.XlsxReader</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxReader</class>
+  <method>readUniversitiesFromExcel</method>
+  <thread>1</thread>
+  <message>Чтение университетов из файла universityInfo.xlsx завершено</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:52.851678800Z</date>
+  <millis>1769267032851</millis>
+  <nanos>678800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>Начало сохранения в XML файл</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:53.363942100Z</date>
+  <millis>1769267033363</millis>
+  <nanos>942100</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.utils.XmlUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.XmlUtil</class>
+  <method>writeXml</method>
+  <thread>1</thread>
+  <message>XML файл успешно сохранен: xmlReqs\req_2026-01-24_18-03-52.xml</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:53.528755200Z</date>
+  <millis>1769267033528</millis>
+  <nanos>755200</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.utils.JsonUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.JsonUtil</class>
+  <method>writeJson</method>
+  <thread>1</thread>
+  <message>JSON файл успешно сохранен: jsonReqs\req_2026-01-24_18-03-53.json</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:53.532708100Z</date>
+  <millis>1769267033532</millis>
+  <nanos>708100</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.XlsxWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxWriter</class>
+  <method>WriteStatistics</method>
+  <thread>1</thread>
+  <message>Начало записи в файл statistics.xlsx</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:56.158714200Z</date>
+  <millis>1769267036158</millis>
+  <nanos>714200</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.XlsxWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsxWriter</class>
+  <method>WriteStatistics</method>
+  <thread>1</thread>
+  <message>Файл statistics.xlsx успешно создан и заполнен.</message>
+</record>
+<record>
+  <date>2026-01-24T15:03:56.186683200Z</date>
+  <millis>1769267036186</millis>
+  <nanos>683200</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Конец работы приложения</message>
+</record>
+</log>

@@ -1,18 +1,28 @@
 package org.example.models;
 
+import com.google.gson.annotations.SerializedName;
+import jakarta.xml.bind.annotation.*;
 import org.example.enums.StudyProfile;
 
-import java.util.Optional;
-
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Statistics {
+
+    @XmlElement(name = "universityProfile", required = true)
+    @SerializedName("universityProfile")
     StudyProfile mainProfile;
-    Optional<Double> avgExamScore;
-    long countStudentByProfile;
-    long countUniversityByProfile;
-    String universityNames;
+
+    @XmlElement(name = "avgScore")
+    @SerializedName("avgScore")
+    Double avgExamScore;
+
+    transient long countStudentByProfile;
+
+    transient long countUniversityByProfile;
+
+    transient String universityNames;
 
     public Statistics(StudyProfile mainProfile,
-                      Optional<Double> avgExamScore,
+                      Double avgExamScore,
                       long countStudentByProfile,
                       long countUniversityByProfile,
                       String universityNames) {
@@ -31,11 +41,11 @@ public class Statistics {
         this.mainProfile = mainProfile;
     }
 
-    public Optional<Double> getAvgExamScore() {
+    public Double getAvgExamScore() {
         return avgExamScore;
     }
 
-    public void setAvgExamScore(Optional<Double> avgExamScore) {
+    public void setAvgExamScore(Double avgExamScore) {
         this.avgExamScore = avgExamScore;
     }
 

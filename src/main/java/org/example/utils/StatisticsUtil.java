@@ -8,7 +8,7 @@ import org.example.models.University;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class StatisticsUtils {
+public class StatisticsUtil {
 
     public static List<Statistics> collectStatistics(List<Student> studentList, List<University> universityList) {
 
@@ -40,7 +40,7 @@ public class StatisticsUtils {
                     .collect(Collectors.joining(", "));
 
             result.add(new Statistics(profile,
-                    avgExamScore,
+                    avgExamScore.orElse(0.0),
                     countStudentByProfile,
                     countUniversityByProfile,
                     universityNames));
